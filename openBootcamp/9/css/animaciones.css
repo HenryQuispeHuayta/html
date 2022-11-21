@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.btn-modern{
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-modern:hover{
+  animation: boton 0.4s infinite;
+}
+
+@keyframes boton {
+  50%{
+    background-color: black;
+    color: white;
+    transform: translateX(-5px);
+    border-bottom: 2px solid darkblue;
+    cursor: pointer;  
+  }
+}
